@@ -1,0 +1,21 @@
+//convert a given number of pounds to kilograms
+//create a varibale to store the numner pf pounds
+//claculate the number of kilograms for the number above and store in a variable
+//print out the results.
+//notes: 1 pound is equal to 0.45359237 kilograms
+
+
+//public class Hellow{
+//
+//    public static void main(String[] args){
+//
+////        int mypounds = 10;
+////        double mykilograms = mypounds * 0.45359237;
+////        System.out.println("weight is =  " + mykilograms);
+////            second way tim's way::
+//            double numpound = 200d;
+//            double convertdintokilogram = numpound * 0.45359237;
+//        System.out.println("kilograms = " + convertdintokilogram);
+//    }
+//}
+//===================================================================================================================================================
