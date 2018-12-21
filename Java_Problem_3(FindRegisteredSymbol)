@@ -1,0 +1,18 @@
+//1.find the code foR The reigstered symbol on the same line as the copyright symbol
+//2.create a variable of tyPe char and assign it the unicode value for that symbol
+//3.display it on the screen
+
+//public class Hellow {
+//
+//    public static void main(String[] args) {
+//
+//        char mychar = '\u1f482';
+//        //char mychar = "U+00AE";//wrong implementation
+//        System.out.println("mychar :: " + mychar);
+//
+//    }
+//
+//
+//}
+
+//========================================================================================
