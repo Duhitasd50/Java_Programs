@@ -1,0 +1,185 @@
+////challenge
+////problem
+////create a method called displayhighscoreposition
+////it should a players name as a parameter, and a 2nd parameter as a position in the high score table
+////you should display the players name along with a message like "managed to get into the posiition"
+////and the position they got and a further message on the highscore table
+////create a 2nd method called calculate highscpreposition
+////it should be sent onne argument only, the palyer score
+////it should return an int,
+////the return data shoud be
+////1.if the score is >1000
+////2.>500 and <1000
+////3. >100 and <500
+////4. in all other cases, call both methods and display the results of the fololoiwng score,
+////1500,900,400 and 50
+//
+//
+//package com.company;
+//
+//public class Main {
+//
+//    int highScorePosition = calculateHighScorePosition(1500);
+//    displayHighScorePosition("tim", highScorePosition)
+//}
+//
+//    public static void displayHighScorePosition(String playerName, int highScorePosition){
+//
+//        System.out.println(playerName + "managed to get into the position " +highScorePosition+"on the high score table");
+//
+//        public static int calaulateHighScorePosition(int playerScore){
+//
+//            if(playerScore>1000){
+//                return 1;
+//            }else if(playerScore>500 && playerScore < 1000){
+//                return 2;
+//            }else if (playerScore > 100 && playerScore <500){
+//                return 3;
+//            } else{
+//
+//            }
+//        }
+//
+//    }
+//
+//
+//
+
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+//CHALLENGE CONTINUED
+//CHALLENEGE COMPLETED
+
+//package com.company;
+//
+//public class Main {
+//    public Main() {
+//    }
+//
+//    public static void main(String[] args) {
+//        boolean gameOver = true;
+//        int score = 800;
+//        int levelCompleted = 5;
+//        int bonus = 100;
+//        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+//        System.out.println("Your final score was " + highScore);
+//        score = 10000;
+//        levelCompleted = 8;
+//        bonus = 200;
+//
+//        int highScorePosition = calculateHighScorePosition(1500);
+//        displayHighScorePosition("duheeta ", highScorePosition);
+//
+//        highScorePosition = calculateHighScorePosition(900);
+//        displayHighScorePosition("rob ", highScorePosition);
+//        highScorePosition = calculateHighScorePosition(400);
+//        displayHighScorePosition("rohit ", highScorePosition);
+//        highScorePosition = calculateHighScorePosition(50);
+//        displayHighScorePosition("durohit ", highScorePosition);
+//
+//
+//    }
+//
+//    public static void displayHighScorePosition(String playerName, int HighScorePosition) {
+//        System.out.println(playerName + "managed to get into position - " + HighScorePosition + " on the high score table");
+//    }
+//
+//
+//    public static int calculateHighScorePosition(int playerScore) {
+//        if (playerScore > 1000) {
+//            return 1;
+//        } else if (playerScore >= 500 && playerScore < 1000) {
+//            return 2;
+//        } else if (playerScore >= 100 && playerScore < 500) {
+//            return 3;
+//        } else {
+//            return 4;
+//        }
+//    }
+//
+//    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+//
+//        if (gameOver) {
+//            int finalScore = score + (levelCompleted * bonus);
+//            finalScore += 2000;
+//            return finalScore;
+//        }
+//        return -1;
+//    }
+//
+//}
+
+//SOLUTION
+
+//    Program Files\Java\jdk-11.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3\lib\idea_rt.jar=51754:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Dee\Desktop\JAVA PROGRAMS\JAVA_2\out\production\JAVA_2" com.company.Main
+//        Your final score was 3300
+//        duheeta managed to get into position - 1 on the high score table
+//        rob managed to get into position - 2 on the high score table
+//        rohit managed to get into position - 3 on the high score table
+//        durohit managed to get into position - 4 on the high score table
+//
+//        Process finished with exit code 0
+
+//==============================================================================================
+
+//ALTERNATIVE WAY
+//
+//
+//package com.company;
+//
+//public class Main {
+//    public Main() {
+//    }
+//
+//    public static void main(String[] args) {
+//        boolean gameOver = true;
+//        int score = 800;
+//        int levelCompleted = 5;
+//        int bonus = 100;
+//        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+//        System.out.println("Your final score was " + highScore);
+//        score = 10000;
+//        levelCompleted = 8;
+//        bonus = 200;
+//        highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+//        System.out.println("Your final score was " + highScore);
+//        int highScorePosition = calculateHighScorePosition(1500);
+//        displayHighScorePosition("Tim", highScorePosition);
+//        highScorePosition = calculateHighScorePosition(900);
+//        displayHighScorePosition("Bob", highScorePosition);
+//        highScorePosition = calculateHighScorePosition(400);
+//        displayHighScorePosition("Percy", highScorePosition);
+//        highScorePosition = calculateHighScorePosition(50);
+//        displayHighScorePosition("Gilbert", highScorePosition);
+//        highScorePosition = calculateHighScorePosition(1000);
+//        displayHighScorePosition("Louise", highScorePosition);
+//        highScorePosition = calculateHighScorePosition(500);
+//        displayHighScorePosition("Carol", highScorePosition);
+//        highScorePosition = calculateHighScorePosition(100);
+//        displayHighScorePosition("Frank", highScorePosition);
+//    }
+//
+//    public static void displayHighScorePosition(String playerName, int highScorePosition) {
+//        System.out.println(playerName + " managed to get into position " + highScorePosition + " on the high score table");
+//    }
+//
+//    public static int calculateHighScorePosition(int playerScore) {
+//        if (playerScore >= 1000) {
+//            return 1;
+//        } else if (playerScore >= 500) {
+//            return 2;
+//        } else {
+//            return playerScore >= 100 && playerScore < 500 ? 3 : 4;
+//        }
+//    }
+//
+//    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+//        if (gameOver) {
+//            int finalScore = score + levelCompleted * bonus;
+//            finalScore += 2000;
+//            return finalScore;
+//        } else {
+//            return -1;
+//        }
+//    }
+//}
+//
