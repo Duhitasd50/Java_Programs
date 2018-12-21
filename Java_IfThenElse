@@ -1,0 +1,37 @@
+////IF THEN ELSE RECAP
+////DONE
+////METHODS IN JAVA
+//
+////package com.company;
+////
+////public class Main {
+////
+////    public static void main(String[] args) {
+////
+////        boolean gameOver = true;
+////        int Score = 800;
+////        int levelCompleted = 5;
+////        int bonus = 100;
+//////
+//////
+//////        if (gameOver) {
+//////
+//////            int finalScore = (Score + levelCompleted) * bonus;
+//////            System.out.println("your final score was : " + finalScore);
+//////        }
+////
+////        calculateScore(true, 800, levelCompleted, bonus); //method
+////
+////
+////        Score = 10_000;
+////        levelCompleted = 8;
+////        bonus = 200;
+////
+////        if (gameOver) {
+////
+////            int finalScore = (Score + levelCompleted) * bonus;
+////            System.out.println("your final score was :: " + finalScore);
+////
+////        }
+////
+////    }
