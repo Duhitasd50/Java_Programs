@@ -1,0 +1,31 @@
+//QUESTION:WRITE A METHOD WITH A PARAMETER OF TYPE INT NAMED YEAR. THE PARAMETER NEEDS TO BE GREATER THAN OR EQUAL TO 1 AND LESS THAN OR EQUAL TO 9999
+
+
+
+//LEAP YEAR SOULTION
+//package com.company;
+//
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        int year = 2019;
+//
+
+////        public static boolean isLeapYear ( int year)
+//
+//        if (year >= 1 && year <= 9999) {
+//
+//            int calculatedYear = year % 400;
+//
+//            if (calculatedYear == 0) {
+//                System.out.println(calculatedYear + " is a leap year ");
+//            } else {
+//                System.out.println(calculatedYear + " is not a leap year");
+//            }
+//        } else {
+//            return isLeapYear = false;
+//        }
+//
+//    }
+//}
+//========================================================================================================================================
