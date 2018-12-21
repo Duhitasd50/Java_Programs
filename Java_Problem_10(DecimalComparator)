@@ -1,0 +1,35 @@
+//EQUAL BY THREE DECIMAL DEIGTIS
+
+//package com.company;
+//
+//public class Main {
+//
+//    public static void main(String[] args) {
+//
+//        double num1= 3.464;
+//        double num2 = 3.414;
+////       double num_1 = num1 *1000;
+////       double num_2 = num2 * 1000;
+////       double num_12 = num_1 * 100;
+////       double num_21 = num_2 *100;
+//
+//        if(((num1*1000) == (num2*1000)) && ((num1*100)==(num2*100))) {
+//            System.out.println("  they look like they are equal but lets make sure... ");
+//
+//            if (((num1 * 100) != (num2 * 100))) {
+//                System.out.println("they are not equal at the second decimal palce... so they are not equal");
+//            } else if (((num1 * 1000) != (num2 * 1000))){
+//                System.out.println("they are not equal at the third decimal...but lets check for second decimal...");
+//
+//            }
+//        } else {
+//            System.out.println("maybe later");
+//        }
+//
+//
+//
+//
+//    }
+//}
+
+//================================================================================================================================================
