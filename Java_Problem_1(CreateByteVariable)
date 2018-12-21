@@ -1,0 +1,22 @@
+
+//PROBLEM : 1.create a byte variable and set it to any valid byte number.
+//2.create a short variable and set it to anyvalid short number
+//3.create an int variable and set it to any valid int number
+//4.create a variable of type long, an dmake it equal to
+// 50000+10 times the su, of the byte, plus the short plus the int.
+
+//public class Hellow{
+//
+//    public static void main(String[] args){
+//
+//
+//        byte bytevalue = 10;
+//        short shortvalue = 20;
+//        int intvalue = 50;
+//
+//        long longtotal = 50000 + 10*(bytevalue + shortvalue + intvalue);
+//        System.out.println(longtotal);
+//
+//    }
+//}
+//======================================================================================================================================
