@@ -1,0 +1,16 @@
+//package com.company;
+//
+//public class Main {
+//
+//    public static void main(String[] args) {
+//                        int kiloBytes = 344442550;
+//                int calculatedMegaBytes = kiloBytes / 1024;
+//                int calculatedRemainingKiloBytes =  kiloBytes % 1024;
+//                System.out.println(kiloBytes + " KB " + " = " +  calculatedMegaBytes + " MB " + calculatedRemainingKiloBytes + " KB ");
+//
+//
+//
+//
+//
+//    }
+//}
