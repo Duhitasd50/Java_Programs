@@ -1,0 +1,99 @@
+//QUESTION:WE HAVE A DOG THAT LIKES TO BARK.WE NEED TO WAKE UP IF THE DOG IS BARKING AT NIGHT!
+//WE HAVE TO WAKEUP IF THE DOG ID BARKING BEOFRE 8:00AM OR AFTER 22:00HOUR
+
+//FINAL SOLUTION
+public class BarkingDog {
+public static boolean bark(boolean barking, int hourOfDay)
+	 {
+	    if (barking)
+	    {
+	    if (hourOfDay <0 || hourOfDay >23)
+	    	{
+	    		return false;
+	    	}
+	    	else if(hourOfDay < 8 || hourOfDay >22)
+	    	{
+	    		return true;
+	    	}
+	    }
+	    return false;
+	 }
+} 
+//=====================================================================================================
+//TRIALS:1
+
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+    }
+    public static void bark(){
+
+        boolean barking = true;
+        int hourOfDay = (23);
+
+        if(hourOfDay > 8 || hourOfDay < 22){
+
+            System.out.println("wake up the dog is barking");
+
+
+        }else if(hourOfDay < 0  || hourOfDay > 23){
+
+            System.out.println("baalala");
+        }
+    }
+}
+====================================================================================================================================
+// TRAIL:2
+
+//package com.company;
+//
+//public class Main {
+//
+//    public static void main(String[] args) {
+
+//        int barkingDog = bark(1)
+//
+//        public static void bark(boolean barking,int hourOfDay){
+//
+//            boolean barking = true;
+//            int hourOfDay = (23);
+//
+//            if (barking = true && hourOfDay = 1) {
+//                return 1;
+//            }
+//            else if (barking = false && hourOfDay = 2) {
+//                return 2;
+//            }
+//            else if (barking = true && hourOfDay = 8) {
+//                return 3;
+//            }
+//            else (barking = true && hourOfDay = -1) {
+//                return 4;
+//            }
+//        }
+//    }
+//}
+
+//===============================================================================================================
+//TRIAL:3
+//public class BarkingDog{
+//
+//    public static void bark(){
+//
+//        boolean barking = true;
+//        int hourOfDay = (23);
+//
+//        if(8 >> barking || barking >> 22){
+//            return true;
+//            System.out.println("the dogs barkign wake up ");
+//        }else ()
+//
+//
+//    }
+//}
+//}
+//    }
