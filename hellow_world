@@ -1,0 +1,11 @@
+// 1. hellow world, intorduction to JAVAAA
+
+public class Hellow {
+
+    public static void main(String[] agrs) {
+
+        System.out.println("Hellow Duhita!");
+
+    }
+}
+//=====================================================================================================
