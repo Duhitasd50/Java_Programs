@@ -1,0 +1,13 @@
+//public class Hellow {
+//
+//    public static void main(String[] args) {
+//
+//        //string is a sequence of charatcers.
+//        String numstring = "250.55";
+//        numstring = numstring +"49.95";
+//
+//        System.out.println("numstring  : " +numstring);
+//
+//    }
+//}
+//=======================================================================================
