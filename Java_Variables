@@ -1,0 +1,22 @@
+//2.VARIABLES
+//place in memory like a box wihich will contain some information
+//they make program very useful
+
+public class Hellow{
+
+
+public static void main(String[] agrs) {
+
+
+
+    int myfirstnumber = (10 + 5)+(2*10);
+    int mysecondnumber = 12;
+    int mythirdnumber = 6;
+
+    int mytotal = myfirstnumber+mysecondnumber+mythirdnumber;
+
+    System.out.println(mytotal);
+    System.out.println("myfirstnumber");
+    }
+}
+//===========================================================================================
