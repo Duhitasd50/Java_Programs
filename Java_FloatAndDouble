@@ -1,0 +1,18 @@
+//4.FLOAT AND DOUBLE
+
+//public class Hellow{
+//
+//    public static void main(String[] args){
+//
+//        int myint = 5;
+//        float myfloat = 5.984643643f/3f ;
+//        double mydouble = 5d;
+//        System.out.println("myintvalue =  "+ myint);
+//        System.out.println("myfloatvalue = "+myfloat);
+//        System.out.println("mydoublevalue = "+ mydouble);
+//
+//
+//    }
+//}
+
+//=======================================================================================
