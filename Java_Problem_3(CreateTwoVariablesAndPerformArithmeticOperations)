@@ -1,0 +1,39 @@
+//1.create a double variable with the value of 20
+//2.create a second variable of ty[e double wiht the value 80
+//3.add both numbers up and multiply by 25
+//4.use the remainder operator to figure out the remainder from the sum of #3 divided by40
+//5.write an if statement that displays a message "total was over the limit"
+//if the remaining total #4is equal to 20 or less.
+//public class Hellow {
+//
+//    public static void main(String[] args) {
+//
+//        double dvar = 5650;
+//        double dvariable = 80;
+//        double dtotal = (dvar + dvariable) * 25;
+//
+//        double remainder = (dtotal+dvar+dvariable) % 40;
+//
+//        if(remainder < 20) System.out.println("total was over the limit");
+//        System.out.println("the remainder is ::::   "+remainder);
+//
+//
+//    }
+//}
+//========================================================================================================
+
+//public class Hellow {
+//
+//    public static void main(String[] args) {
+//
+//        double myfirstvalue = 20d;
+//        double mysecondvalue = 80d;
+//        double mytotal = (myfirstvalue+mysecondvalue )*25d;
+//        System.out.println("mytotal"+mytotal);
+//        double remainder = mytotal % 40;
+//        if(remainder <= 20)
+//            System.out.println("total was over the limit");
+//    }
+//}
+
+//=======================================================================================================================================
