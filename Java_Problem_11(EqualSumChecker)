@@ -1,0 +1,24 @@
+//EQUAL SUM CHECKER
+
+//package com.company;
+//
+//public class Main {
+//
+//    public static void main(String[] args) {
+//       // public class equalsumchecker {
+//
+//            public static boolean equalsumchecker(int firstNumber, int secondNumber, int thirdNumber){
+//
+//                if(thirdNumber ==(firstNumber +secondNumber))
+//
+//                {
+//                    System.out.println(" thirdNumber is equal to sum of first and second number");
+//                } else
+//
+//                {
+//                    System.out.println("sorry maybe next time's a charm");
+//                }
+//            }
+//        }
+//    }
+////}
