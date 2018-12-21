@@ -1,0 +1,12 @@
+public class TeenNumberChecker {
+    public static boolean hasTeen (int num1, int num2, int num3){
+
+        if(hasTeen(9,99,19)){
+            return true;
+        }else if(hasTeen(23,15,42)){
+            return true;
+        }else(hasTeen(22,23,34)){
+            return false;
+        }
+    }
+}
