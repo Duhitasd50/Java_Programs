@@ -1,0 +1,56 @@
+//KEYWORDS AND EXPRESSIONS
+//lecture 23
+//50reserved words for java opertions
+
+//public class Hellow {
+//
+//    public static void main(String[] args) {
+////false,true,null :are not keywords
+//        //expressions are building bocks of java
+//
+//
+//        //amile is a equal to 1.609344 kilometers
+//
+//        double kilometers = (100 * 1.609344);
+//    }
+//}
+//
+
+//public class Hellow {
+//
+//    public static void main(String[] args) {
+//
+//        int score = 100;
+//        if (score > 90) {  //score >90 is aslo an expression
+//            System.out.println("you got the hig score"); //green part is the expresions
+//        }
+//    }
+//
+//}
+//
+//
+//===========================================================================================================
+
+// public class Hellow {
+
+//     public static void main(String[] args) {
+
+//         boolean gameover = true;
+//         int score = 5000;
+//         int levelcompleted = 5;
+//         int bonus = 100;
+//         if (score < 5000 && score > 1000)
+//             System.out.println("your score was 5000");
+//         else {
+//            System.out.println("got here");
+//         }
+
+
+//         if(gameover == true){
+//             int finalscore = score +(levelcompleted*bonus);
+//             System.out.println("your final score"+finalscore);
+
+//     }
+// }
+//
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
