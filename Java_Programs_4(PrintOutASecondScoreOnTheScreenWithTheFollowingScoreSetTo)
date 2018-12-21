@@ -1,0 +1,74 @@
+//problem
+//1.print out a second score on the screen with the following
+//score set to 10000
+//level completed set to 8
+//bonus set to 200
+//but make sure the first printout above still displays as well.
+//
+//public class Hellow{
+//    public static void main(String[] args){
+//        boolean gameOver = true;
+//        int firstScore = 5000;
+//        int levelCompleted = 8;
+//        int bonus =200;
+//        int secondScore = 10_000;
+//        System.out.println("the firstScore is :: " + firstScore );
+//        System.out.println("the secondScore is :: " + secondScore);
+//
+//    }
+//}
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// TIMS solution
+
+//
+//public class Hellow {
+//    public static void main(String[] args) {
+//
+//        boolean newGameover = true;
+//        int newScore = 10_000;
+//        int newLevelCompleted = 8;
+//        int newBonus = 200;
+//
+//        if (newGameover) {
+//            int finalScore = newScore + (newLevelCompleted * newBonus);
+//            System.out.println("your final score is :: " + finalScore);
+//        }
+//    }
+//
+//}
+
+//public class Hellow {
+//    public static void main(String[] args) {
+//
+//        boolean gameOver = true;
+//        int score = 800;
+//        int levelCompleted = 5;
+//        int bonus = 100;
+//
+//
+//        score = 10_000;
+//        levelCompleted = 8;
+//        bonus = 200;
+//
+//        if (gameOver) {
+//            int finalScore = score + (levelCompleted * bonus);
+//            finalScore +=1000;
+//            System.out.println("your final score is :: " + finalScore);
+//
+//        }
+//    }
+//}
+//---------------------X--------------------------X----------------------------X-----------------------------------------X-----------------------X------------------------------X---------------X
+
+
+
+//
+//public class Hellow {
+//    public static void main(String[] args) {
+//
+//    }
+//}
+//
+//
+
