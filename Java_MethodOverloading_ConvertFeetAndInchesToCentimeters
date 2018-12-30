@@ -1,0 +1,140 @@
+//MethodOverloading
+//create a method called calculateFeetAndInchesToCentimeters.
+//it needs to have two parameters
+//first parameter is feet snf second parameter is inches.
+//you should validate that the first parameter feet is >=0
+//you should validate that the 2nd parameter inches is >=0 and <=12
+//return -1 form the method if either of the above is not true.
+//if the parameters are valid, then calculate how mny centimeters comprise the feet and inches passed to this method and
+//return that value.
+//
+//create a 2nd method of the same name but with only one parameter
+//inches is the parameter
+//validate that its >=0
+//return -1 if it is not true
+//but if its valid, then calculate how many feet are in the inches and then here is the tricky part
+//call the other overloaded method passing the correct feet ar3e in the inches
+//calculated so that it can calculate correctly
+//hints: use double for your number datatypes is probably ta good idea
+//1 inch = 2.45 cm and 1 foot =12 inches
+
+
+//TRIAL ONE: 
+
+package com.company;
+
+public class Main {
+
+
+    public static void main(String[] args) {
+
+	calculateFeetAndInchesToCentimeters(5,7);
+	calculateFeetAndInchesToCentimeters(8);
+    }
+
+    public static int calculateFeetAndInchesToCentimeters(double feet, double inches){
+        if (feet >= 0 ) {
+            System.out.println("feet is " + feet);
+            double calculateFeetToCentimeters = (feet * 30.48);
+            System.out.println(" feet in centimeters is  "+ calculateFeetToCentimeters);
+        }
+        else{
+                System.out.println("feet is not validated");
+            }
+
+        if (inches >= 0 && inches <= 12 ) {
+            System.out.println("inches is " + inches);
+            double calculateInchesToCentimeters = (inches * 2.54);
+            System.out.println("inches to centimeters is  " + calculateInchesToCentimeters);
+        }
+        else{
+                System.out.println("inches is not validated");
+            }
+        return -1;
+
+       //double calculateFeetToCentimeters = (feet * 30.48);
+
+
+    }
+    public static int calculateFeetAndInchesToCentimeters(double inches) {
+        if (inches >= 0) {
+            System.out.println("inches is valid " + inches);
+            double calculateHowManyFeetAreInTheInches = (inches * 0.0833);
+            System.out.println("how many feet are in the inches:  " + calculateHowManyFeetAreInTheInches);
+            calculateFeetAndInchesToCentimeters(7, 10);
+            System.out.println("final feets and inches : " + calculateFeetAndInchesToCentimeters();
+
+        } else {
+            return -1;
+        }
+    }
+
+
+}
+
+//TRIAL 2
+
+package com.company;
+
+        public class Main {
+
+            public static void main(String[] args) {
+                double centimeters = calculateFeetAndInchesToCentimeters(6,0);
+                if(centimeters < 0.0){
+                    System.out.println(" Invalid parameters ");
+                }
+                calculateFeetAndInchesToCentimeters(157);
+
+
+            }
+            public static double calculateFeetAndInchesToCentimeters(double feet,double inches){
+
+                if((feet < 0 ||((inches < 0) || (inches > 12)))){
+                    System.out.println("Invalid feet or inches paramters ");
+                    return -1;
+
+                }
+                double centimeters = (feet * 12)* 2.54;
+                centimeters += inches * 2.54;
+                System.out.println(feet + " feet, " + inches + "inches = "+ centimeters + " cm");
+                return centimeters;
+
+            }
+            public static double calculateFeetAndInchesToCentimeters(double inches){
+                if(inches < 0){
+                    return -1;
+                }
+                double feet = (int) inches / 12;
+                double remainingInches =(int) inches % 12;
+                System.out.println(inches + " inches is equal to " + feet + " feet and "+ remainingInches +" inches");
+                return calculateFeetAndInchesToCentimeters(feet,remainingInches);
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
